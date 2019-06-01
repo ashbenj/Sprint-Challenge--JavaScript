@@ -20,9 +20,9 @@ function consume(param1, param2, cb) {
 
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
-// consume(2,2,add); // 4
-// consume(10,16,multiply); // 160
-// consume("Mary","Poppins", greeting); // Hello Mary Poppins, nice to meet you!
+consume(2,2,add); // 4
+consume(10,16,multiply); // 160
+consume("Mary","Poppins", greeting); // Hello Mary Poppins, nice to meet you!
 
 function add(x,y) {
 	return x + y;
@@ -41,7 +41,7 @@ function greeting(firstName, lastName){
 
 // Explanation: 
 
-//nestedunction() can access 'internal' because it reaches outward rather than inward, making them inside the same closure.
+//nestedfunction() can access 'internal' because it reaches outward rather than inward, making them inside the same closure.
 
 
 const external = "I'm outside the function";
